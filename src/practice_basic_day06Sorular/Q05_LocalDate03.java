@@ -10,9 +10,9 @@ public class Q05_LocalDate03 {
          What is the output of the following code?
         Asagidaki code'un  ciktisi  nedir?
         */
-        LocalDate date = LocalDate.of(2018,Month.FEBRUARY, 29);
-
-        System.out.println(date.getYear() + " " + date.getMonth() + " " + date.getDayOfMonth());
+       // LocalDate date = LocalDate.of(2018,Month.FEBRUARY, 29);
+//
+       // System.out.println(date.getYear() + " " + date.getMonth() + " " + date.getDayOfMonth());
 
             /*
             A. 2018 APRIL 29
@@ -20,8 +20,9 @@ public class Q05_LocalDate03 {
             C. 2018 MAY 10
             D. Another date.
             E. The code does not compile.
-            F. A runtime exception is thrown.
+            F. A runtime exception is thrown. //cevap : F
             */
+        System.out.println(LocalDate.now().isLeapYear());//artik yil olup olmadigini beliriler ve boolean sonuc dondurur
 
     }
 }

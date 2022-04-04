@@ -16,9 +16,9 @@ public class Q06_LocalDate04 {
         date.plusYears(3);
 
         System.out.println(date.getYear() + " " + date.getMonth() + " " + date.getDayOfMonth());
-/*
+/*       //cevap degismez cunku atama yapilmamis
             A. 2018 APRIL 2
-            B. 2018 APRIL 30
+            B. 2018 APRIL 30 //cevap : B
             C. 2018 MAY 2
             D. 2021 APRIL 2
             E. 2021 APRIL 30

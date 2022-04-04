@@ -10,6 +10,20 @@ public class Q02_ForEach02 {
     // If an element starts with 'v' then quit the loop
     public static void main(String[] args) {
 
+        String[] list = {"fruits", "vegetables", "meat", "milk"};
+        for (String element:list
+             ) {
+            System.out.println(element + " : "+element.length() +" ");
+
+        }
+        for (String item : list
+             ) {
+            if (item.startsWith("v")){
+                break;
+            }
+            System.out.println(item);
+        }
+
 
     }
 }

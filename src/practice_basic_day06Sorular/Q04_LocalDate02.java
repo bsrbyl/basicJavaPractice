@@ -1,5 +1,8 @@
 package practice_basic_day06Sorular;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class Q04_LocalDate02 {
     public static void main(String[] args) {
 
@@ -13,6 +16,11 @@ public class Q04_LocalDate02 {
            F. LocalDate.of(2014, Month.JUNE, 21);
          */
 
+        //cevap: D-F
+        LocalDate date = LocalDate.of(2014,06,21);
+        System.out.println("date : "+date);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM dd, YYYY");
+        System.out.println(formatter.format(date));
 
     }
 }
