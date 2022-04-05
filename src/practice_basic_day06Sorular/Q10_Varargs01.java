@@ -14,19 +14,19 @@ static int toplam=0;
         System.out.println("istediginiz kadar sayi giriniz : \n sayilari toplamak icin 0'a basiniz");
 
         int sayi=1;
-        while(sayi!=0){
+        while(sayi>0){
             sayi= scan.nextInt();
-           // sayiToplama(sayi);
+           sayiToplama(sayi);
         }
         System.out.println("toplam : "+toplam);
     }
 
 private static void sayiToplama(int...sayi){//varargs oldugunu anliyoruz
-       toplam=0;
+
     for (int each:sayi
          ) {
         toplam+=each;
     }
-    System.out.println("toplam : "+toplam);
+
 }
 }
