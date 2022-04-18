@@ -22,6 +22,7 @@ public class Q05_SpecialCharRemoveArray {
     */
     public static void main(String[] args) {
         ArrayList<String> arrlist = new ArrayList<>(Arrays.asList("$-40", "$15", "$20"));
+       // ArrayList<String> arrlist = new ArrayList<>(Arrays.asList("$13", "$15", "$20"));
         System.out.println("toplam : "+ getSum(arrlist));
 
     }
