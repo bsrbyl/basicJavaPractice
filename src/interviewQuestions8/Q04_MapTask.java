@@ -26,6 +26,7 @@ public class Q04_MapTask {
         ArrayList<String> qaTeam =new ArrayList<>(Arrays.asList("Kadir", "Seher", "Gokhan", "Bahattin"));
         grupIsimVeUyeler.put("Development Team", devTeam);
         grupIsimVeUyeler.put("QA Team", qaTeam);
+
         System.out.println("grupIsimVeUyeler = " + grupIsimVeUyeler);
         //grupIsimVeUyeler = {QA Team=[Kadir, Seher, Gokhan, Bahattin], Development Team=[Abdullah, Kutay, Enes Faruk, Yasin]}
         //Bolum2
